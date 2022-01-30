@@ -46,8 +46,7 @@ function handleDrop(e) {
      return false;
 }
 
-let items = document.querySelectorAll(".container .circle");
-items.forEach(function (item) {
+document.querySelectorAll(".circle").forEach(function (item) {
      item.addEventListener("dragstart", handleDragStart);
      item.addEventListener("dragend", handleDragEnd);
 });
