@@ -1,0 +1,67 @@
+.title {
+     text-align: center;
+     margin-bottom: 50px;
+}
+
+.container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.square_container {
+     display: flex;
+}
+
+.circle_container {
+     display: flex;
+     margin-top: 50px;
+}
+
+.square {
+     width: 40px;
+     height: 40px;
+     margin-right: 40px;
+     padding: 10px;
+
+     border-width: 3px;
+     border-style: solid;
+     border-radius: 0.5em;
+}
+
+.blue_square {
+     border-color: blue;
+     background-color: lightblue;
+}
+
+.red_square {
+     border-color: red;
+     background-color: lightcoral;
+}
+
+.circle {
+     width: 40px;
+     height: 40px;
+     padding: 10px;
+     margin-right: 40px;
+
+     border-width: 3px;
+     border-style: solid;
+     border-radius: 50%;
+
+     cursor: move;
+}
+
+.blue_circle {
+     border-color: blue;
+     background-color: lightblue;
+}
+
+.red_circle {
+     border-color: red;
+     background-color: lightcoral;
+}
+
+.square.over {
+     border-style: dotted;
+}
